@@ -109,6 +109,13 @@ button{
     color: black;
 }
 
-.hide{
+.user-input {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.hidden{
     display: none;
 }
