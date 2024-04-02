@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    background-color: #6B74D1;
+}
+
+#container-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#logo-img img{
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+#main-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.font{
+    color: white;
+}
+
+#Check-polindromo{
+    width: min(100vh, 550px );
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0 6px 6px #002ead ;
+    text-align: center;
+}
+
+
+#text-palindromo{
+    font-size: 1.3rem;
+    width: 100%;
+    font-weight: 200;
+    margin-bottom: 20px;
+    
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    border: none;
+    margin: 20px;
+    border-bottom: 2px solid #00C9B7;
+}
+
+button{
+    width: 20%;
+    height: 35px;
+    background-color: #00C9B7;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.palindrome-definition {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.palindrome-definition-div {
+    width: min(100vw, 450px);
+    font-size: 1.3rem;
+    min-height: 140px;
+    background-color: #86A8E7;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+}
+
+.user-input {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}

@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprobador de polindromos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>Comprobador de palindromos</title>
 </head>
+
 <body>
-    
+    <main id="container-main">
+        <div id="logo-img">
+            <!-- <img src="img/justdoit.png" alt="Puedes Hacerlo"> -->
+            <h1 id="main-title" class="font">Validador de palindromos</h1>
+        </div>
+        <div id="Check-polindromo">
+            <label for="text-input" id="text-palindromo">Introduzca el texto o frase para validar :</label>
+            <input type="text" id="text-input">
+            <button  id="check-btn" class="font">Compruebe</button>
+            <div class="results-div hidden" id="result"></div>
+        </div>
+        <div class="palindrome-definition-div">
+            <p class="palindrome-definition font">
+                <span role="img" aria-label="light-bulb">💡</span>
+                Un <dfn>palíndromo</dfn> es una palabra o frase que se escribe igual hacia delante y hacia atrás, sin
+                tener en cuenta la puntuación, las mayúsculas y los espacios.
+            </p>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
